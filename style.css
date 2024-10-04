@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    width:100vw ;
+    height:100vh;
+    background-color:white;
+  }
+  header{
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+  }
+  nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+
+  }
+  nav .lef_tapp a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+
+  }
+  nav .right_items ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  nav .right_items ul li a{
+   text-decoration: none;
+   color: aliceblue;
+   margin: 0 20px;
+   font-size: 1.2rem;
+   font-weight: lighter;
+  }
+  .container{
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 50px;
+}
+.container img{
+    width: 300px;
+    height: 60px;
+}
+.container h1{
+    font-weight: 100;
+    font-size: 2.2 rem;
+    margin: 30px 0;
+}
+.container h1 span{
+    font-weight: 600;
+  
+}
+.search_container{
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 3.4rem;
+    width:55%;
+    border-radius:8px;
+}
+.search_container  .searchleft,.search_container .searchright{
+    display: inline-flex;
+    padding: 0 1rem;
+
+}
+.search_container  .searchleft{
+    width: 30%;
+    border-right: solid 2px grey;
+}
+.search_container  .searchright{
+    width: 70%;
+}
+.search_container input{
+    border: 0;
+    font-size: 1rem;
+    outline:none;
+    background: transparent;
+    color: grey;
+    width:100%;
+    margin-left: 6px;
+
+}
+.search_container .searchleft{
+    color:rgb(131, 9, 9);
+    font-size: 20px;
+}
+.search_container .searchright{
+    color:grey;
+    font-size: 20px;
+}
+
+
+
+
+.section{
+    width: 90%;
+    margin:0 auto;
+    text-align: center;
+    height: 300px;
+}
+.section .order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 4%;
+    margin-bottom: 40px;
+   
+}
+.order .box{
+    width: 30%;
+    margin: 12px;
+    border-radius: 8px;
+    border:1px solid grey;
+    transition: transform 0.5sec;
+    position: relative;
+} 
+ .order .box a img{
+    width: 100%;
+    height:200px;
+    border-radius: 8px;
+    top:0;
+    left:0;
+
+
+}
+.order .box :hover{
+    transform: scale(1.1);
+}
+.order .box .content{
+    text-align: left;
+    width:100%;
+    padding: 0 12px;
+    position: absolute;
+    bottom:0;
+    background: white;
+    border-radius: 8px ;
+} 
+.order .box .content .heading{
+   font-size: 1rem;
+   margin: 10px 0;
+} 
+.order .box .content .heading{
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+   
+ } 
+
